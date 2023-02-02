@@ -1,11 +1,3 @@
-CREATE TABLE students
-(
-    id       BIGINT PRIMARY KEY auto_increment,
-    name     VARCHAR,
-    birthday DATE,
-    group    INT
-);
-
 CREATE TABLE student
 (
     id          BIGINT NOT NULL auto_increment PRIMARY KEY,
